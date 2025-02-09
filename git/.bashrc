@@ -1,0 +1,11 @@
+alias bashrc="vi ~/.bashrc"
+alias reload="source ~/.bashrc"
+alias gg="git gui"
+alias gc="git checkout"
+alias gb="git branch -a"
+alias gp="git push"
+alias rebase="git checkout master && git pull -p && git checkout - && git rebase master"
+alias c='echo -n "$(git branch --show-current)" | clip'
+alias t='echo -n "$(git branch --show-current | cut -b 1-15)" | clip'
+alias p="cd /c/projects"
+alias r="npm.cmd run -s"

@@ -1,0 +1,54 @@
+{
+  "files.eol": "\n",
+  "editor.rulers": [
+    140
+  ],
+  "editor.minimap.maxColumn": 140,
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "explorer.confirmDelete": false,
+  "files.watcherExclude": {
+    "**/node_modules": true,
+    "**/node_modules/*/**": false
+  },
+  // "files.exclude": {
+  //   "**/node_modules": true
+  // },
+  "editor.tabSize": 2,
+  "editor.find.addExtraSpaceOnTop": false,
+  "extensions.ignoreRecommendations": true,
+  "diffEditor.renderSideBySide": true,
+  "editor.foldingStrategy": "indentation",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.pinnedTabSizing": "compact",
+  "json.maxItemsComputed": 10000,
+  "workbench.editor.revealIfOpen": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "eslint.lintTask.options": "-c package.json --ext .js,.vue src",
+  "eslint.lintTask.enable": true,
+  "editor.guides.bracketPairs": true,
+  "workbench.activityBar.location": "bottom",
+  "terraform.languageServer.indexing.ignoreDirectoryNames": [
+    "node_modules"
+  ],
+  "terraform.languageServer.indexing.ignorePaths": [
+    "node_modules"
+  ],
+  "window.menuBarVisibility": "compact",
+  "workbench.editor.showTabs": "none",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.mouseWheelZoom": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.commandCenter": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.fontSize": 13,
+  "workbench.iconTheme": "catppuccin-macchiato",
+  // "catppuccin-icons.monochrome": true,
+}
